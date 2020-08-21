@@ -4,6 +4,13 @@
 
 > :rocket: Projecto reacriando tela de login da @Rocketseat
 
+## 👨‍💻️ Tecnogias utilizadas
+
+- [NextJs](https://nextjs.org/)
+- [Chakra](https://chakra-ui.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ReactJS](https://reactjs.org/)
+
 ### Run Web
 
 ```bash
