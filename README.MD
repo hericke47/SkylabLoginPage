@@ -4,6 +4,12 @@
 
 > :rocket: Projecto reacriando tela de login da @Rocketseat
 
+### Projeto 
+
+<div>
+    <img src="./.github/tela.png">
+</div>
+
 ## 👨‍💻️ Tecnogias utilizadas
 
 - [NextJs](https://nextjs.org/)
