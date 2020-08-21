@@ -1,6 +1,6 @@
 // import Head from 'next/head'
 
-import { Heading, Grid, Flex } from '@chakra-ui/core';
+import { Heading, Grid, Flex, Input, Link, Button, Text } from '@chakra-ui/core';
 
 export default function Home() {
   return (
@@ -35,6 +35,60 @@ export default function Home() {
         alignItems="stretch"
         padding={16}
       >
+        <Input 
+          height="50px"
+          backgroundColor="gray.800"
+          focusBorderColor="purple.500"
+          borderRadius="sm"
+          placeholder="E-mail"
+        />
+
+        <Input 
+          height="50px"
+          backgroundColor="gray.800"
+          focusBorderColor="purple.500"
+          borderRadius="sm"
+          placeholder="Senha"
+          marginTop={2}
+        />
+
+        <Link
+          alignSelf="flex-start"
+          marginTop={2}
+          fontSize="sm"
+          color="purple.600"
+          fontWeight="bold"
+          _hover={{ color: 'purple.500' }}
+        >
+          Esqueci minha senha
+        </Link>
+
+        <Button
+          backgroundColor="purple.500"
+          height="50px"
+          borderRadius="sm"
+          marginTop={6}
+          _hover={{ backgroundColor: 'purple.600' }}
+        >
+          Entrar
+        </Button>
+
+        <Text
+          textAlign="center"
+          fontSize="sm"
+          color="gray.300"
+          marginTop={6}
+        >
+          Não tem uma conta? {" "}
+          <Link
+            color="purple.600"
+            fontWeight="bold"
+            _hover={{ color: 'purple.500' }}
+          >
+            Registre-se
+          </Link>
+        </Text>
+
         
       </Flex>
     </Grid>
