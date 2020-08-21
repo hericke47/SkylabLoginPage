@@ -19,8 +19,7 @@ const customTheme: DefaultTheme = {
     md: '8px',
   },
   fontSizes: {
-    ...theme.fontSizes,
-    '6xl': '54px',
+    ...theme.fontSizes
   },
   colors: {
     ...theme.colors,
